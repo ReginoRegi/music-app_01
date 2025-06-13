@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Deezer Music Search</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #eee;
+      padding: 20px;
+    }
+    input[type="text"] {
+      width: 300px;
+      padding: 10px;
+      font-size: 16px;
+    }
+    button {
+      padding: 10px 15px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .results {
+      margin-top: 20px;
+    }
+    .track {
+      margin-bottom: 15px;
+      padding: 10px;
+      border-bottom: 1px solid #444;
+    }
+    audio {
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎵 Deezer Music Search</h1>
+  <input type="text" id="searchInput" placeholder="Search for songs or artists...">
+  <button onclick="searchMusic()">Search</button>
+
+  <div class="results" id="results"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
